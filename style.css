@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 20px 100px;
+    text-align: center;
+    border-radius: 3px;
+    height: 90vh;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px 2px grey;
+}
+
+hr {
+   background-color: #b6b2b2;
+   margin-top: 5px;
+}
+
+.search-bar {
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    width: 75%;
+}
+
+.search-bar:not(:placeholder-shown) {
+    border-bottom: 2px solid grey;
+}
